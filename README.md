@@ -9,6 +9,8 @@ build a very simple angular.js web page (don't worry about formatting etc, just 
 
 3) allow user to accept orders from the order list (one at a time), PATCH to update order status (see API usage below, make sure to include authorization header) and show updated status in table
 
+Commit *on a new branch*
+
 # api usage
 python api-freelance.py
 
