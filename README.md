@@ -1,7 +1,7 @@
-# pos-sample for freelancer.com
+# angular.js pos-sample for freelancer.com
 
 ## instructions:
-build a very simple web page (don't worry about formatting etc, just take a basic bootstrap page if you like)
+build a very simple angular.js web page (don't worry about formatting etc, just take a basic bootstrap page if you like)
 
 1) link the table to read data from api using async calls (see API usage below). make sure to include authorization header
 
