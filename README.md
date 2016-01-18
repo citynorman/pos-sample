@@ -17,10 +17,10 @@ python api-freelance.py
 include header: x-api-key "abcdef123" (the sample api works without the header but the real api needs one)
 
 ## get all orders
-GET http://127.0.0.1:5000/api/order
+GET http://104.131.61.25:5000/api/order
 
 ## update order status
-PATCH http://127.0.0.1:5000/api/order/1
+PATCH http://104.131.61.25:5000/api/order/1
 {
       "status": "confirmed"
     }
