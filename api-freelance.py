@@ -64,4 +64,4 @@ manager = flask.ext.restless.APIManager(app, flask_sqlalchemy_db=db)
 manager.create_api(Order, methods=['GET', 'POST', 'PATCH', 'DELETE'])
 
 # start the flask loop
-app.run(debug=True)
+app.run(host='0.0.0.0',debug=True)
