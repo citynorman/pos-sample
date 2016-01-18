@@ -5,8 +5,9 @@ import os, random, uuid
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 app = Flask(__name__)
-app.config['DEBUG'] = True
+#app.config['DEBUG'] = True
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'testapi.db')
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=True
 db = SQLAlchemy(app)
 CORS(app)
 
@@ -65,4 +66,4 @@ manager.create_api(Order, methods=['GET', 'POST', 'PATCH', 'DELETE'])
 
 # start the flask loop
 if __name__ == "__main__":
-    app.run(host='0.0.0.0',debug=True)
+    app.run(host='0.0.0.0')
