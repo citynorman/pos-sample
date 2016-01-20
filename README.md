@@ -14,8 +14,6 @@ build a very simple angular.js web page (don't worry about formatting etc, just 
 **To submit, commit on a new branch or send me a plnkr**
 
 # api usage
-python api-freelance.py
-
 include header: x-api-key "abcdef123" (the sample api works without the header but the real api needs one)
 
 ## get all orders
