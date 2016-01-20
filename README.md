@@ -3,13 +3,13 @@
 ## instructions:
 build a very simple angular.js web page (don't worry about formatting etc, just take a basic bootstrap page if you like)
 
-1) link the table to read data from api using async calls (see API usage below). make sure to include authorization header
+1) build a table to read data from api using async calls (see API usage below). make sure to include authorization header
 
 2) add sorting, filtering, pagination to table
 
-3) allow user to accept orders from the order list (one at a time), PATCH to update order status (see API usage below, make sure to include authorization header) and show updated status in table
+3) allow user to accept orders from the order list by clicking on a button (one order at a time), PATCH to update order status (see API usage below, make sure to include authorization header) and show updated status in table
 
-Commit *on a new branch*
+To submit, commit ~~on a new branch~~
 
 # api usage
 python api-freelance.py
