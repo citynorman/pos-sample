@@ -5,7 +5,7 @@ build a very simple angular.js web page (don't worry about formatting etc, just 
 
 1) include a table that reads data from api using async calls (see API usage below). make sure to include authorization header
 
-2) add a refresh button that reloads the latest data from API into table
+2) add a refresh button that reloads the latest data from API into table, again using async calls
 
 3) add sorting, filtering, pagination to table
 
